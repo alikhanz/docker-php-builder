@@ -5,7 +5,7 @@ LABEL maintainer "alihan93.93@gmail.com"
 VOLUME ["~/.composer/cache", "/data"]
 
 RUN set -xe \
-    apk add --no-cache --virtual .persistent-deps git \
+    && apk add --no-cache --virtual .persistent-deps git \
     && curl -sS https://getcomposer.org/installer \
              | php -- --install-dir=/usr/local/bin --filename=composer
 
