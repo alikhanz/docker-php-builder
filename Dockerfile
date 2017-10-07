@@ -1,4 +1,4 @@
-FROM zalikhan/php:7.0-fpm-alpine
+FROM zalikhan/php:7.1-fpm-alpine
 
 LABEL maintainer "alihan93.93@gmail.com"
 
